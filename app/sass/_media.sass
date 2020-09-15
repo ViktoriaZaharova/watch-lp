@@ -1,0 +1,317 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+  .menu-links
+    padding: 14px
+
+  .calculate-wrapper .form
+    justify-content: space-between
+    label
+      width: 160px
+      margin: 0
+      max-width: none
+    button
+      max-width: 150px
+
+  .form label, .file__upload, .form .consent, .form button
+    max-width: 49%
+
+  .file__upload
+    label
+      max-width: none
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+  .main-img
+    max-width: 300px
+
+  .main-content
+    width: calc(100% - 300px)
+
+  .logo
+    max-width: 150px
+
+  h1
+    font-size: 32px
+
+  .phone
+    font-size: 17px
+
+  .profitable
+    padding: 0 0 60px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 890px)
+  .menu-links
+    padding: 12px 7px
+
+  h1
+    margin: 0 0 20px
+    font-size: 28px
+
+  h2
+    font-size: 24px
+
+  .main-img img
+    max-width: 250px
+
+  .logo
+    max-width: 100px
+
+  .main-img
+    max-width: 260px
+    &:before
+      width: 370px
+      height: 370px
+
+  .main-content
+    width: calc(100% - 260px)
+
+  .profitable-box
+    width: 33%
+    margin: 0 0 30px
+    font-size: 14px
+
+  .profitable-wrapper
+    justify-content: space-around
+
+  .appraisal-img
+    width: 300px
+    img
+      max-width: 250px
+
+  .form
+    width: calc(100% - 300px)
+
+  .appraisal
+    padding: 70px 0
+
+  .stages-work .line
+    width: 90px
+
+  .section-wrap-two .section-wrap__img
+    width: 300px
+    img
+      max-width: 180px
+
+  .section-wrap-two .section-wrap__content
+    width: calc(100% - 300px)
+
+  .appraisal-two
+    padding: 60px 0
+    &:before
+      width: 600px
+      height: 600px
+
+  .appraisal-description
+    width: 280px
+    padding: 20px
+
+  .appraisal-two h2
+    margin: 0 auto 30px
+
+  .section-information-img
+    width: 220px
+
+  .section-information-content
+    width: calc(100% - 440px)
+    padding: 0 10px
+    font-size: 14px
+
+  .get-paid
+    padding: 0 0 50px
+
+  .section-information-two__wrapper
+    padding: 30px 45px
+
+  h3
+    font-size: 20px
+    margin: 0 auto 30px
+
+@media only screen and (max-width : 767px)
+  header
+    .menu
+      display: none
+
+  .btn-burger
+    display: flex
+
+  .calculate-wrapper
+    margin: 30px 0
+
+  .main-content
+    width: 100%
+
+  .main-img
+    margin: 0 auto
+
+  h1
+    text-align: center
+
+  .calculate-wrapper .form label, .calculate-wrapper .form button
+    width: 30%
+    max-width: none
+
+  .section-wrap__content, .section-wrap-two .section-wrap__content
+    width: 100%
+
+  .section-wrap__img
+    margin: 30px auto 0
+    order: 1
+    &:before
+      width: 300px
+      height: 300px
+
+  .form
+    width: 100%
+
+  .appraisal-wrapper, .appraisal-img
+    margin: 30px auto 0
+
+  .stages-work .line
+    display: none
+
+  .appraisal-description
+    width: 100%
+    margin: 0 auto 30px
+
+  .appraisal-two h2
+    margin: 0
+
+  .section-information h2, .profitable h2, .section-information-two h2, .section-wrap h2, .advantages h2
+    margin: 0 auto 30px
+
+  .section-information-img
+    width: 100%
+    max-height: 200px
+    display: flex
+    align-items: center
+    justify-content: center
+    overflow: hidden
+
+  .section-information-content
+    width: 100%
+    padding: 20px 0
+
+  .section-information-two__wrapper
+    padding: 20px 30px
+
+  .list-checkbox li
+    padding: 0 0 0 40px
+    min-height: 30px
+    &:before
+      width: 30px
+      height: 30px
+
+  .advantages
+    padding: 0 0 50px
+    &:before
+      width: 600px
+      height: 600px
+
+
+
+@media only screen and (max-width : 575px)
+  .stages-work__wrapper
+    justify-content: space-around
+
+  .stages-work__box
+    margin: 0 0 30px
+    font-size: 14px
+
+  .stages-work h2
+    margin: 0 auto 30px
+
+  footer
+    padding: 30px 0 20px
+    .text-box
+      margin: 30px 0
+
+  .line-wrapper
+    flex-direction: column
+    align-items: center
+    .phone-wrapper
+      margin: 0 auto 10px
+
+  .list-checkbox
+    max-width: none
+    li
+      margin: 0 0 15px
+
+@media only screen and (max-width : 480px)
+  .calculate-wrapper .form label
+    width: 49%
+    margin: 0 0 20px
+
+  .calculate-wrapper .form button
+    width: 100%
+
+  main
+    padding: 0 0 60px
+
+  body
+    font-size: 14px
+
+  .text-box
+    p
+      margin: 0 0 15px
+      &:last-child
+        margin: 0
+
+  .profitable-box
+    width: 48%
+
+  .profitable-box__icon, .stages-work__icon
+    width: 120px
+    height: 120px
+    &:before
+      width: 110px
+      height: 110px
+
+  .profitable h2
+    margin: 0 auto 30px
+
+  .form label, .file__upload, .form .consent, .form button
+    max-width: none
+
+  .form .consent
+    margin: 0 auto 20px
+
+  .stages-work
+    padding: 0 0 60px
+
+  .get-paid .profitable-box
+    width: 50%
+
+@media only screen and (max-width : 420px)
+  .messenger
+    margin: 0 5px 0 0
+    width: 15px
+    height: 15px
+    min-width: 15px
+
+  .phone__icon
+    width: 15px
+    min-width: 15px
+    height: 15px
+    margin: 0
+
+  .phone
+    font-size: 14px
+    .phone__icon
+      margin: 0 5px 0 0
+
+  .logo
+    max-width: 60px
+
+  .bg-circle
+    &:before
+      width: 200px
+      height: 200px
+
+  .section-wrap__img:before
+    width: 300px
+    height: 300px
