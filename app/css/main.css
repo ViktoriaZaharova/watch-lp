@@ -1,67 +1,4 @@
 @font-face {
-  font-family: "roboto";
-  font-weight: 100;
-  font-style: normal;
-  src: url("../fonts/Roboto/Roboto-Thin.eot");
-  src: url("../fonts/Roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "roboto";
-  font-weight: 300;
-  font-style: normal;
-  src: url("../fonts/Roboto/Roboto-Light.eot");
-  src: url("../fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Light.woff") format("woff"), url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "roboto";
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/Roboto/Roboto-Regular.eot");
-  src: url("../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "roboto";
-  font-weight: 500;
-  font-style: normal;
-  src: url("../fonts/Roboto/Roboto-Medium.eot");
-  src: url("../fonts/Roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "roboto";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/Roboto/Roboto-Bold.eot");
-  src: url("../fonts/Roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "roboto";
-  font-weight: 900;
-  font-style: normal;
-  src: url("../fonts/Roboto/Roboto-Black.eot");
-  src: url("../fonts/Roboto/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Black.woff") format("woff"), url("../fonts/Roboto/Roboto-Black.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "playfair";
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot");
-  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"), url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "playfair";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot");
-  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"), url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "playfair";
-  font-weight: 900;
-  font-style: normal;
-  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot");
-  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.woff") format("woff"), url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf") format("truetype"); }
-
-@font-face {
   font-family: "Neumann";
   font-weight: normal;
   font-style: normal;
@@ -70,12 +7,26 @@
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  box-sizing: border-box; }
   *:before, *:after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -116,7 +67,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: normal;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   background: #2C2827; }
 
@@ -157,7 +108,7 @@ a {
 
 h1 {
   font-size: 42px;
-  font-family: "playfair", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   color: #F3C28B;
   text-transform: uppercase;
   margin: 0 0 30px;
@@ -168,7 +119,7 @@ h2 {
   text-transform: uppercase;
   color: #F3C28B;
   margin: 0 0 13px;
-  font-family: "playfair", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   width: 100%;
   text-align: center; }
 
@@ -177,7 +128,7 @@ h3 {
   width: 100%;
   text-transform: uppercase;
   color: #F3C28B;
-  font-family: "playfair", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   margin: 0 auto 33px;
   font-size: 22px; }
 
@@ -193,15 +144,13 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center; }
   .bg-circle:before {
+    display: none;
     content: '';
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    -webkit-filter: blur(250px);
-            filter: blur(250px);
-    mix-blend-mode: lighten;
     background: rgba(243, 194, 139, 0.3);
     width: 404px;
     height: 404px;
@@ -226,7 +175,7 @@ input {
           box-sizing: border-box;
   -webkit-box-shadow: none;
           box-shadow: none;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 100%;
   border: none;
     border-radius: 5px;
@@ -247,7 +196,7 @@ select {
   width: 100%;
   outline: none;
   height: 60px;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #000;
   border: none;
@@ -279,7 +228,7 @@ label {
   width: 100%;
   border-radius: 5px;
   font-size: 16px;
-  font-family: "roboto", sans-serif; }
+  font-family: "Roboto", sans-serif; }
   .btn span {
     position: relative;
     z-index: 1;
